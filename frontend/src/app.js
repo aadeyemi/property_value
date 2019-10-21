@@ -1,7 +1,8 @@
 import React from "react";
 
 function testApi() {
-  const api = "http://127.0.0.1:8000/api/v0/real-acct/texas/harris/1000/";
+  const api =
+    "http://127.0.0.1:8000/api/v0/search/addr/tx_harris/14736%20branchwest%20dr/";
 
   function headers(type, payload) {
     const obj = {
@@ -38,7 +39,7 @@ function testApi() {
 
 function App() {
   testApi();
-  return <div className = "App" / > ;
+  return <div className="App" />;
 }
 
 export default App;

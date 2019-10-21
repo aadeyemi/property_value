@@ -1,3 +1,4 @@
+# pylint: disable=import-error,bad-option-value
 """
 WSGI config for property_value_proj project.
 

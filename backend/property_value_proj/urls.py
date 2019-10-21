@@ -1,3 +1,4 @@
+# pylint: disable=import-error,bad-option-value
 """property_value_proj URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,5 +20,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v0/', include('property_value_app.urls')),
+    path('api/v0/search/', include('property_value_app.urls')),
 ]
