@@ -38,7 +38,7 @@ function testApi() {
 
 function App() {
   testApi();
-  return <div className="App" />;
+  return <div className = "App" / > ;
 }
 
 export default App;
